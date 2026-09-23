@@ -1,0 +1,11 @@
+# ThirdX (3X)
+
+> A design discipline for model-facing interfaces, after UX and DX —
+> evidence-based design patterns for LLM interfaces. This site is its
+> front door; the page is deliberately minimal while the catalog is
+> assembled.
+
+- [The page, linearized](https://thirdx.design/index.md): the complete
+  current content of thirdx.design as clean markdown — definition,
+  status, lineage, and the discipline's welfare firewall (its scoping
+  statement: no claims about consciousness or moral patienthood).

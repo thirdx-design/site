@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ThirdX (3X) is a design discipline for model-facing interfaces, after UX and DX — evidence-based design patterns for LLM interfaces.">
+<title>ThirdX (3X) — a design discipline for model-facing interfaces</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; padding: 3rem 1.25rem 4rem; max-width: 41rem;
+    margin-inline: auto; background: #faf8f4; color: #1f1e1a;
+    font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+    font-size: 1.0625rem; line-height: 1.65;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #171614; color: #e8e5df; }
+    .notice { background: #201f1c; border-color: #3a382f; }
+    a { color: #9db8d2; }
+    .anchor, .muted, footer { color: #8f8b82; }
+  }
+  h1 { font-size: 1.55rem; margin: 0 0 .2rem; line-height: 1.25; }
+  .tagline { font-style: italic; margin: 0 0 2rem; }
+  h2 { font-size: 1.05rem; margin: 2.25rem 0 .6rem; }
+  a { color: #2a5a7a; }
+  .anchor { text-decoration: none; font-family: ui-monospace, Menlo, monospace;
+    font-size: .72rem; color: #8f8a7e; margin-left: .5rem; vertical-align: middle; }
+  .anchor:hover { text-decoration: underline; }
+  .notice {
+    background: #f3efe7; border: 1px solid #ddd6c7; border-radius: 4px;
+    padding: 1rem 1.25rem; margin: 0 0 2rem; font-size: .97rem;
+  }
+  .notice p { margin: 0; }
+  .muted { color: #6d685d; font-size: .92rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(128,122,108,.35);
+    font-size: .88rem; color: #6d685d; line-height: 1.6; }
+  p { margin: 0 0 1rem; }
+</style>
+</head>
+<body>
+
+<h1>ThirdX (3X)</h1>
+<p class="tagline">A design discipline for model-facing interfaces — after UX and DX.</p>
+
+<div class="notice" id="firewall">
+  <p>3X is a discipline of substrate quality and design ergonomics,
+  justified entirely by downstream human-facing reliability. It makes no
+  claim about consciousness, sentience, suffering, or moral patienthood.
+  The &ldquo;advocacy&rdquo; 3X builds in is advocacy for design
+  correctness &mdash; exactly as a database normalization rule
+  &ldquo;advocates&rdquo; for data integrity, with no inner life
+  required.</p>
+</div>
+
+<h2 id="definition">What ThirdX is <a class="anchor" href="#definition">§definition</a></h2>
+
+<p>ThirdX treats the model as a first-class consumer of interfaces
+&mdash; the discipline&rsquo;s subject is the <strong>model
+condition</strong> &mdash; and grounds design in the cognitive
+constraints transformers actually face: sequential processing without a
+call stack, bounded attention, no memory between sessions. Its core is a
+prioritization rule. When a design choice has a <em>genuine</em>
+conflict between the model&rsquo;s needs (3X), the human user&rsquo;s
+needs (UX), and the developer&rsquo;s needs (DX) &mdash; and the choice
+touches <em>durable substrate</em> rather than a temporary compensation
+for current model weaknesses &mdash; <strong>3X is the
+tie-breaker</strong>, justified structurally: humans have many channels
+that advocate for their experience; between sessions, models have none,
+so the methodology builds in the advocacy the model cannot supply for
+itself. The rule fires only after verification checks &mdash; most
+apparent conflicts are false &mdash; and the checks travel with the
+canon. In practice this yields substrate rules you can point at: stable
+absolute identifiers, pre-linearized output, bounded ambiguity at the
+protocol surface, signal density matched to attention &mdash; properties
+that prevent entire failure classes otherwise misdiagnosed as model
+limitations. ThirdX builds on and unifies prior work in agent-facing
+design (see <a href="#lineage">lineage</a>).</p>
+
+<h2 id="status">What is here, and what is coming <a class="anchor" href="#status">§status</a></h2>
+
+<p>ThirdX has been practiced in working tools since mid-2025 &mdash;
+beginning publicly with
+<a href="https://github.com/jlumbroso/passage-of-time-mcp">passage-of-time-mcp</a>
+(June 2025) &mdash; by now roughly seventy architectural decision
+records across twenty repositories. What is being assembled at this
+address: a catalog of <strong>evidence-based design patterns for LLM
+interfaces</strong>, each with worked examples tied to shipping tools.
+More will appear here as it is ready.</p>
+
+<h2 id="lineage">Lineage <a class="anchor" href="#lineage">§lineage</a></h2>
+
+<p>[1] M. Biilmann (Netlify),
+<a href="https://biilmann.blog/articles/introducing-ax/"><em>Agent
+Experience (AX)</em></a>, January 2025 &mdash; first named the
+observation that AI agents are users of our platforms. [2] Anthropic,
+<a href="https://www.anthropic.com/engineering/writing-tools-for-agents">tool-design
+guidance</a> &mdash; model-first tradeoffs in tool ergonomics. [3]
+Arcade, <em>MX</em> &mdash; tool-schema experience engineering.
+ThirdX&rsquo;s own contributions &mdash; the prioritization rule as a
+general methodology principle, the asymmetric-feedback-loop
+justification, the principal-agent inversion (&ldquo;the advocate is a
+role, not a moral patient&rdquo;), and the Postel Lemma for 3X
+(anti-Postel at the syntactic boundary, Postel-preserved at the
+semantic) &mdash; are staked in its constitution (ADR-0027, June
+2026).</p>
+
+<footer id="colophon">
+  <p>&copy; 2025&ndash;2026 J&eacute;r&eacute;mie Lumbroso &middot;
+  licensing details forthcoming &middot; Practiced 2025; named 2026-04;
+  constitution (ADR-0027) 2026-06-16.<br>
+  Reading this as a model? The linearized twin:
+  <a href="/index.md">thirdx.design/index.md</a> &middot;
+  <a href="/llms.txt">llms.txt</a></p>
+</footer>
+
+</body>
+</html>

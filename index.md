@@ -46,10 +46,11 @@ examples tied to shipping tools. More will appear here as it is ready.
 [1] M. Biilmann (Netlify), *Agent Experience (AX)*, January 2025 —
 https://biilmann.blog/articles/introducing-ax/ — first named the
 observation that AI agents are users of our platforms.
-[2] Anthropic, tool-design guidance —
+[2] K. Aizawa (Anthropic), tool-design guidance, September 2025 —
 https://www.anthropic.com/engineering/writing-tools-for-agents —
 model-first tradeoffs in tool ergonomics.
-[3] Arcade, *MX* — tool-schema experience engineering.
+[3] R. Byrro (Arcade), *MX Engineering*, February 2025 — tool-schema
+experience engineering.
 ThirdX's own contributions — the prioritization rule as a general
 methodology principle, the asymmetric-feedback-loop justification, the
 principal-agent inversion ("the advocate is a role, not a moral

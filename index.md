@@ -43,14 +43,21 @@ examples tied to shipping tools. More will appear here as it is ready.
 
 ## Lineage {#lineage}
 
-[1] M. Biilmann (Netlify), *Agent Experience (AX)*, January 2025 —
-https://biilmann.blog/articles/introducing-ax/ — first named the
-observation that AI agents are users of our platforms.
-[2] K. Aizawa (Anthropic), tool-design guidance, September 2025 —
+[1] J. Yang et al., *SWE-agent: Agent-Computer Interfaces Enable
+Automated Software Engineering*, NeurIPS 2024 (arXiv, May 2024) —
+https://arxiv.org/abs/2405.15793 — argued that language-model agents are
+a new category of end user, and named the agent-computer interface.
+[2] M. Biilmann (Netlify), *Introducing AX: Why Agent Experience
+Matters*, January 2025 — https://biilmann.blog/articles/introducing-ax/
+— named Agent Experience (AX): the experience AI agents have as users
+of a product or platform.
+[3] R. Byrro (Arcade), *The Birth of Machine Experience Engineering*,
+February 2025 —
+https://www.arcade.dev/blog/the-birth-of-machine-experience-engineering/
+— tool design for language models as its own engineering practice.
+[4] K. Aizawa (Anthropic), tool-design guidance, September 2025 —
 https://www.anthropic.com/engineering/writing-tools-for-agents —
 model-first tradeoffs in tool ergonomics.
-[3] R. Byrro (Arcade), *MX Engineering*, February 2025 — tool-schema
-experience engineering.
 ThirdX's own contributions — the prioritization rule as a general
 methodology principle, the asymmetric-feedback-loop justification, the
 principal-agent inversion ("the advocate is a role, not a moral

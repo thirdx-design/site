@@ -1,7 +1,7 @@
 # ThirdX (3X)
 
 > A design discipline for model-facing interfaces, after UX and DX —
-> evidence-based design patterns for LLM interfaces. This site is its
+> evidence-based design patterns for the interfaces models consume. This site is its
 > front door; the page is deliberately minimal while the catalog is
 > assembled.
 

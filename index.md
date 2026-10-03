@@ -38,7 +38,7 @@ publicly with passage-of-time-mcp
 (https://github.com/jlumbroso/passage-of-time-mcp, June 2025) — by now
 roughly seventy architectural decision records across twenty
 repositories. What is being assembled at this address: a catalog of
-**evidence-based design patterns for LLM interfaces**, each with worked
+**evidence-based design patterns for the interfaces models consume**, each with worked
 examples tied to shipping tools. More will appear here as it is ready.
 
 ## Lineage {#lineage}
